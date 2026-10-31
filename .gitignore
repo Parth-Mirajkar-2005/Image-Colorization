@@ -1,0 +1,27 @@
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Datasets and checkpoints (large files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+checkpoints/*.pth
+checkpoints/*.pt
+outputs/*.png
+outputs/*.jpg
+
+# IDE settings
+.vscode/
+.idea/
